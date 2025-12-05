@@ -34,7 +34,7 @@ project/
 ├── evaluate.py              # Model evaluation script
 ├── predict.py               # Inference on new images
 ├── model/                   # Saved models (.h5 or SavedModel)
-├── datasets/                # Cat/Dog images (Available at : https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
+├── datasets/                # Cat/Dog images (Available at : https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset )
 │   ├── train/
 │   └── test/
 └── README.md
