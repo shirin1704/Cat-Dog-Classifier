@@ -34,7 +34,7 @@ project/
 ├── evaluate.py              # Model evaluation script
 ├── predict.py               # Inference on new images
 ├── model/                   # Saved models (.h5 or SavedModel)
-├── datasets/                # Cat/Dog images
+├── datasets/                # Cat/Dog images (Available at : https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 │   ├── train/
 │   └── test/
 └── README.md
@@ -57,7 +57,6 @@ binary_crossentropy
 
 Optimizer:
 Adam
-```
 
 ---
 
@@ -100,5 +99,3 @@ tf.random.set_seed(seed)
 * Better augmentation pipeline
 * Transfer learning with MobileNetV2, EfficientNet
 * Deployment using Flask/FastAPI
-
-https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset
